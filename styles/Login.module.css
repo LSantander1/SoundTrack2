@@ -1,0 +1,49 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: rgba(44, 44, 44);
+    border-radius: 20px;
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    margin-top: 30vh;
+}
+
+.form a {
+    margin: 5px;
+}
+
+.form hr {
+    width: 370px;
+}
+
+.google {
+    background-color: #02b2d4;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.google a {
+    margin: 10px;
+}
+
+.google:hover {
+    background-color: #038eaf;
+}

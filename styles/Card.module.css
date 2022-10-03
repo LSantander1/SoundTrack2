@@ -1,0 +1,76 @@
+.body {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+.card {
+    background-color: rgb(44, 44, 44);
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 10px;
+    width: 300px;
+    padding: 15px;
+}
+
+.card p {
+    margin: 8px;
+}
+
+.card .oldValor {
+    text-decoration: line-through;
+    color: rgb(170, 170, 170);
+}
+
+.card .newValor {
+    font-size: 27px;
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #02b2d4;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #038eaf;
+}
+
+.title {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert {
+    background-color: #FFF3CD;
+    border: 3px solid #dda900;
+
+    padding: 10px;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.alert a, .alert h3 {
+    color: #8f6d00;
+    margin-bottom: 7px;
+}
+
+.body hr {
+    width: 900px;
+    margin: 30px;
+}

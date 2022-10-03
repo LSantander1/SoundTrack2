@@ -1,0 +1,114 @@
+.body {
+    padding: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titlePL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.place {
+    background-color: rgb(44, 44, 44);
+    padding: 10px;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+
+    max-width: 900px;
+
+    display: flex;
+    margin: 10px;
+}
+
+.infos { 
+    text-align: center;     /* centraliza o texto */
+  padding: 2em;   
+}
+
+.infos > div {
+    margin: auto;
+}
+
+.cima {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.baixo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.titlePlan {
+    font-size: 40px;
+}
+
+.valorPlan {
+    font-size: 30px;
+}
+
+.picture {
+    border-radius: 30px;
+}
+
+.place div {
+    margin-left: 10px;
+}
+
+.playlists {
+
+}
+
+.playlist {
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+
+    display: flex;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.playlist:hover {
+    background-color: rgb(20, 20, 20);
+    transition: .2s;
+}
+
+.capa {
+    border-radius: 10px;
+    border: 2px solid #004a58;
+}
+
+.infosPlaylist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 10px;
+}
+
+.namePL {
+    font-size: 20px;
+}
+
+.countMusics {
+    font-size: 15px;
+    color: rgb(139, 139, 139);
+}
+
+.ads {
+    background-color: red;
+}

@@ -1,0 +1,69 @@
+.page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+}
+
+.card {
+    background-color: rgb(44, 44, 44);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+    height: 235px;
+    width: 185px;
+
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #004b6a;/*rgb(71, 71, 71);*/
+    border: 3px solid #02b2d4;
+    margin: 1px;
+}
+
+.packMusics {
+    display: flex;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 260px;
+}
+
+.page h1 {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.titleMusic {
+    font-size: 20px;
+
+    display: flex;
+    text-decoration: none;
+
+    max-width: 17ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.autor {
+    display: flex;
+
+    max-width: 16ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.infosMusic div {
+    margin: 7px;
+}
+
+.img {
+    border-radius: 20px;
+    border: 2px solid #646464;
+}
